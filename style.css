@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-j-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.flex-j-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.flex-fd-column{
+    flex-direction: column;
+
+}
+main{
+    background-color: red;
+}
+section{
+    background-color: yellow;
+    height: 90vh;
+}
+form{
+    width: 50vw;
+}
+article{
+    width: 50vw;
+}
+.box-width{
+    width: 30vw;
+}
+.box-heigth{
+    height: 100vh;
+}
+header{
+    height: 10vh;
+}
