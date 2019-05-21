@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+header h1{
+   
+}
 .flex-j-between{
     display: flex;
     justify-content: space-between;
@@ -19,10 +22,13 @@
 
 }
 main{
-    background-color: red;
+    background-color: #333333;
+    background-image: url(img/hero_1.jpg);
+    background-size: cover;
+
 }
 section{
-    background-color: yellow;
+    background-color: rgba(33, 33,33, 0.5) ;
     height: 90vh;
 }
 form{
@@ -39,4 +45,33 @@ article{
 }
 header{
     height: 10vh;
+    background-color: white;
+}
+header:hover{
+    height: 10vh;
+    background-color: rgba(33, 33,33,0.5)
+}
+header ul li{
+    padding: 10px;
+    list-style: none;
+    color: black;
+}
+header ul li:hover{
+color: #7971ea;
+}
+a:link, a:visited {
+    text-decoration: none;
+    
+	}
+button{
+    border-radius: 30px;
+    background-color: #7971ea;
+    border-color: #7971ea;
+    padding: 15px 41px 10px;
+}
+.active{
+    background: #7971ea;
+    height: 0px;
+    
+    
 }
