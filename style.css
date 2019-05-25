@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand';
 }
 header h1{
+    color: white;
    
 }
 .flex-j-between{
@@ -36,6 +38,7 @@ form{
 }
 article{
     width: 50vw;
+    color: white;   
 }
 .box-width{
     width: 30vw;
