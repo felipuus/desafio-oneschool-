@@ -81,7 +81,7 @@ button:hover{
     height: 10px;
 }
 .form-box{
-    background: #fff;
+    background: rgba(255, 255,255, 0.5);
     padding: 16px 0px 21px;
     border-radius: 7px;
 }
